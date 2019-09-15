@@ -118,7 +118,7 @@ echo "HELLO WORLD" > test_file.txt
 Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
-> Hint: we learned how to list all the files up above.
+> Hint: we learned how to list all the files up above. The outout has been saved to file. 
 
 The greater than says, "put that output into the following file instead."
 
@@ -144,7 +144,7 @@ This prints the data directly to stdout and we can see the whole dataset.
 Nice. 
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
-would we do that?
+would we do that? add "> data.txt" to the end of the curl request. 
 
 Now that we have the data file, let's learn how to manipulate files.
 
