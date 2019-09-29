@@ -1,8 +1,9 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> import nsfg 
+import nsfg 
 
 def CohenEffectSize(group1, group2):
+    
     """Computes Cohen's effect size for two groups.
     
     group1: Series or DataFrame
@@ -28,5 +29,5 @@ others = live[live.birthord != 1]
 
 CohenEffectSize(firsts.totalwgt_lb,others.totalwgt_lb)
 
-'''Cohen's d is negative for weight, which suggests that first babies are on average lighter than other babies. 
+>>>'''Cohen's d is negative for weight, which suggests that first babies are on average lighter than other babies. 
 The effects size is -0.0887 (3 sf). This is comparable to the effects size for pregnancy length''' 
