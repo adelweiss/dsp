@@ -18,3 +18,5 @@
     thinkplot.Pmfs([actual_pmf, biased_pmf])
     thinkplot.Show(xlabel='no. of children', ylabel='PMF')
 
+    print('actual mean', actual_pmf.Mean())
+    print('biased mean', biased_pmf.Mean())
